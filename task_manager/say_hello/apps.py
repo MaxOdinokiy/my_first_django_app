@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class MyFirstSiteConfig(AppConfig):
+class SayHelloConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'my_first_site'
+    name = 'say_hello'
