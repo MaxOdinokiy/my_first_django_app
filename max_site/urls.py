@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('task_manager.say_hello.urls'))
+    path('polls/', include('max_site.polls.urls'))
 ]
